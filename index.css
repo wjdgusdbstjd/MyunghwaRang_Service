@@ -68,6 +68,16 @@
 }
 
 
+
+
+
+@font-face {
+    font-family: 'YeogiOttaeJalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+}
+
 a{
     text-decoration: none;
 }
@@ -400,7 +410,7 @@ header ul li a:hover {
 
 #design-system{
     width: 100%;
-    height: 150vw;
+    height: 210vw;
     /* border: 1px solid red; */
     padding-top: 10vw;
 }
@@ -542,6 +552,61 @@ header ul li a:hover {
 }
 
 #design-system .typo h6{
+    font-size:1vw;
+    font-weight: 400;
+    color: #8899B8;
+}
+
+
+
+
+
+
+
+
+
+#design-system .typo-2{
+    margin-bottom: 10vw;
+    font-family: 'YeogiOttaeJalnan';
+    border: 1px solid red;
+
+}
+
+#design-system .typo-2 li{
+    margin-bottom: 2vw;
+}
+
+#design-system .typo-2 h5{
+    margin-bottom: 1.2vw;
+    font-size: 1.1vw;
+    font-weight: 400;
+    color: #8899B8;
+}
+
+#design-system .typo-2 h1{
+    font-size: 9vw;
+    font-weight: 800;
+}
+
+#design-system .typo-2 h2{
+    font-size: 2.5vw;
+    font-weight: 600;
+}
+
+#design-system .typo-2 h3{
+    font-size:1.6vw;
+    font-weight: 400;
+}
+
+#design-system .typo-2 h4{
+    font-size:1.2vw;
+    font-weight: 600;
+    color: #458FFF;
+    /* border: 1px solid red; */
+    transform: translate(-0.8vw);
+}
+
+#design-system .typo-2 h6{
     font-size:1vw;
     font-weight: 400;
     color: #8899B8;
